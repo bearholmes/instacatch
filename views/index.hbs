@@ -7,5 +7,12 @@
 <form action="/req" method="post">
 	<label for="url">URL</label>
 	<input type="text" id="url" name="url">
-	<button type="submit">검색</button>
+	<button onclick="del()">x</button>
+	<button type="submit">Search</button>
 </form>
+
+<script type="text/javascript">
+	function del(){
+		document.getElementById('url').value = '';
+	}
+</script>
