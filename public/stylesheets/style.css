@@ -1,14 +1,15 @@
 body {
-  padding: 30px;
+  padding-top: 30px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
 }
-input {
-  width: 500px;
+p {
+  margin: 10px;
 }
+
 img {
   max-width:100%;
 }
