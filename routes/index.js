@@ -5,7 +5,7 @@ var request = require('request');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', {title: 'insta catch'});
+  res.render('index', {title: 'Insta Catch'});
 });
 
 router.post('/req', function(req, res, next) {
@@ -19,7 +19,7 @@ router.post('/req', function(req, res, next) {
         result['img'] = img;
         result['video'] = video;
 
-        res.render('post', {title: 'Express', result: result});
+        res.render('post', {title: 'Insta Catch - Result', result: result});
      }
   });
 });
