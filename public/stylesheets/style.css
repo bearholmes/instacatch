@@ -9,6 +9,7 @@ a {
   display: block;
   color: #00B7FF;
   overflow: hidden;
+  word-break: break-all;
 }
 p {
   padding: 10px;
