@@ -9,3 +9,6 @@ a {
 input {
   width: 500px;
 }
+img {
+  max-width:100%;
+}
