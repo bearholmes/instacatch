@@ -1,12 +1,14 @@
 <h1>Insta Catch</h1>
 
 <h2>Image</h2>
-	<strong>URL : </strong><a href="{{result.img}}">{{result.img}}</a><br><br>
+	<p><strong>URL : </strong><a href="{{result.img}}">{{result.img}}</a></p>
+	<br><br>
    <img src="{{result.img}}" alt=""><br>
 
 {{#if result.video}}
 <h2>Video</h2>
-   <strong>URL : </strong><a href="{{result.video}}">{{result.video}}</a><br><br>
+   <p><strong>URL : </strong><a href="{{result.video}}">{{result.video}}</a></p>
+	<br><br>
 	<video width="320" height="240" controls>
 		<source src="{{result.video}}" type="video/mp4">
 		Your browser does not support the video tag.

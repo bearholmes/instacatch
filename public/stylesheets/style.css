@@ -2,14 +2,20 @@ body {
   padding-top: 30px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-
+h1, h2 {
+  margin-left: 15px;
+}
 a {
   color: #00B7FF;
 }
 p {
-  margin: 10px;
+  padding: 10px;
 }
 
 img {
   max-width:100%;
+}
+
+form {
+  margin: 10px;
 }
